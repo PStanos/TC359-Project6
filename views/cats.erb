@@ -2,7 +2,7 @@
 	Cats!
 <% end %>
 
-<% content_for :body do %>
+<% content_for :remainder do %>
 	<% @pictures.each do |pic| %>
 		<a href="<%= pic.source_url %>" title="This cat with a hat is brought to you by The Cat API">
 			<img src="<%= pic.url %>"/>
