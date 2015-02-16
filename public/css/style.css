@@ -1,25 +1,13 @@
-body { background: #cccccc; }
-
-blockquote {
-	color: #666666;
-	font-style: italic;
-}
-
-h3 {
-
-}
-
-h2 {
-	font-size: 1.5em;
-	margin: 0;
+body {
+	background: #eeeeee;
 }
 
 h1 {
-	margin: 0;
-	font-size: 2em;
+	margin-left: 10px;
+	color: #af6386;
 }
 
-img {
-	width: 25em;
-	border-radius: 20px;
+h3 {
+	margin-left: 15px;
+	color: #bf6386;
 }
