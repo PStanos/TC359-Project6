@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+    <title><%= yield_content :title %></title>
+		<!-- Accesses Sinatra's public folder -->
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<script src="js/bootstrap.js"></script>
+  </head>
+  <body>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+					<%= yield_content :column1 %>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+					<%= yield_content :column2 %>
+				</div>
+			</div>
+		</div>
+  </body>
+</html>
